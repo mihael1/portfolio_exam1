@@ -22,40 +22,9 @@
                                     article {
                                         width: 100%;
                                     }
-                                    /*input {
-                                        display: none;
-                                    }
-
-                                    label {
-                                        float: right;
-                                        color: black;
-                                        display: inline-block;
-                                        cursor: pointer;
-                                    }
-
-                                    nav {
-                                        max-height: 0;
-                                        overflow: hidden;
-                                    }
-
-                                    input:checked~nav {
-                                        max-height: 500px;
-                                        transition: all 1s;
-                                    }
-
-                                    nav ul {
-                                        list-style: none;
-                                        margin: 8px 0 0 0;
-                                    }
-
-                                    nav a {
-                                        color: white;
-                                        display: block;
-                                        padding: 6px 12px;
-                                        text-decoration: none;
-                                    }*/
 
                                     .burgermenu {
+
                                         width: 10%;
                                         background: url(burger.svg) no-repeat;
                                         background-size: 100%;
@@ -99,11 +68,6 @@
                                         width: 100%;
                                         right: 0;
                                     }
-                                    /*nav li {
-                                        font-family: 'Raleway', serif;
-                                        font-weight: 200;
-                                        font-style: italic;
-                                    }*/
 
                                     .frontp {
                                         color: whitesmoke;
@@ -129,21 +93,6 @@
                                         article {
                                             grid-column: 3/11;
                                         }
-                                        /* nav li {
-                                            font-family: 'Raleway', serif;
-                                            font-size: 1.5em;
-                                            font-weight: 200;
-                                            font-style: italic;
-
-                                        }
-
-                                        ul {
-                                            position: fixed;
-                                            right: 10px;
-                                            margin: auto;
-                                            padding-bottom: 2%;
-                                        }
-                                        */
                                         label {
                                             display: none;
                                         }
