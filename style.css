@@ -67,11 +67,9 @@
                                     }
 
                                     h1 {
-                                        margin: auto;
-                                        text-align: center;
-                                        margin: auto;
+                                        margin: 7%;
                                         font-family: 'Raleway', serif;
-                                        font-size: 2em;
+                                        font-size: 6em;
                                         font-weight: 200;
                                         font-style: italic;
                                         color: #fc4f00;
@@ -79,15 +77,14 @@
 
                                     p {
                                         font-family: 'Raleway', sans-serif;
-                                        color: #fe9d0d;
+                                        color: grey;
                                         margin: auto;
-                                        font-size: 1.5em;
-                                        text-align: center;
                                     }
 
                                     h2 {
                                         text-align: center;
-                                        font-family: 'Playfair Display', serif;
+                                        font-family: 'Raleway', sans-serif;
+                                        font-weight: 500;
                                         font-size: 2em;
                                     }
 
@@ -102,8 +99,7 @@
                                     }
 
                                     .portrait {
-                                        width: 80%;
-                                        position: inherit;
+                                        width: 100%;
                                         right: 0;
                                     }
 
@@ -112,7 +108,11 @@
                                         font-weight: 200;
                                         font-style: italic;
                                     }
-
+.frontp{
+    color: whitesmoke;
+    font-size: 1.2em;
+    margin: 7%;
+}
                                     @media only screen and (min-width:874px) {
                                         main {
                                             display: grid;
@@ -148,10 +148,7 @@
                                         label {
                                             display: none;
                                         }
-                                        h1 {
-                                            font-size: 6em;
-                                            margin: 7%;
-                                        }
+
                                         .verticaltxt {
                                             position: fixed;
                                             transform: rotate(-90deg) translate( -300px);
