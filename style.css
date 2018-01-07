@@ -222,6 +222,28 @@
                                         margin-left: 50px;
                                     }
 
+.container{
+    position: relative;
+    width: 70%;
+}
+.overlay{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 5vw;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #a5c6ce;
+    transition: 1.2s;
+}
+.container:hover .overlay {
+  opacity: 1;
+
+transition: 1s;
+    transform: scale(1.2);
+}
 
 
                                     @media(max-width:874px) {
