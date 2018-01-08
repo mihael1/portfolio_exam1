@@ -8,7 +8,6 @@
                                         background-color: #1946bb;
                                     }
 
-                                    @import url('https://fonts.googleapis.com/css?family=Raleway');
                                     .projectpg {
                                         background: url(pattern.svg) repeat center fixed;
                                         background-size: 15%;
@@ -24,7 +23,7 @@
                                     }
 
                                     .burgermenu {
-                                        width: 10%;
+                                        width: 70%;
                                         background: url(burger.svg) no-repeat;
                                         background-size: 100%;
                                         margin-right: 3%;
@@ -34,8 +33,8 @@
                                     h1 {
                                         margin: 3%;
                                         font-family: 'Raleway', serif;
-                                        font-size: 6em;
-                                        font-weight: 200;
+                                        font-size: 4em;
+                                        font-weight: 100;
                                         font-style: italic;
                                         color: #fc4f00;
                                     }
@@ -45,6 +44,9 @@
                                         color: grey;
                                         margin: auto;
                                     }
+.abouth2{
+    color: #fc4f00;
+}
 
                                     h2 {
                                         text-align: center;
@@ -55,7 +57,7 @@
 
                                     #active {
                                         text-decoration-line: line-through;
-                                        color: black;
+                                        text-decoration-color: #fc4f00;
                                     }
 
                                     .imgproject {
@@ -72,6 +74,14 @@
                                         color: whitesmoke;
                                         font-size: 1.2em;
                                         margin: 7%;
+                                    }
+
+                                    h3 {
+                                        font-family: 'Raleway', serif;
+                                        font-size: 1.5em;
+                                        font-weight: 200;
+                                        font-style: italic;
+                                        text-decoration: underline;
                                     }
 
                                     @media only screen and (min-width:874px) {
@@ -97,14 +107,34 @@
                                         }
                                         .verticaltxt {
                                             position: fixed;
-                                            transform: rotate(-90deg) translate( -300px);
+                                            transform: rotate(-90deg) translate( -350px);
                                             transform-origin: left top;
                                             float: left;
+                                            font-size: 6em;
                                             z-index: -1;
+                                        }
+                                        .textbig {
+                                            font-size: 6em;
                                         }
                                         .open-slide {
                                             display: none;
                                         }
+                                        .wrapper {
+                                            display: grid;
+                                            grid-template-columns: repeat(2, 1fr);
+                                            grid-column: 2/3;
+                                            grid-gap: 20px;
+                                            align-self: center;
+                                        }
+                                        #containermarg {
+                                            margin: 0;
+                                        }
+                                        #svgiconsdesktop {
+                                            width: 7%;
+                                        }
+                                        #aux{
+    margin: 15vh;
+}
                                     }
 
                                     p {
@@ -114,10 +144,14 @@
                                     .responsiveimg {
                                         width: 70%;
                                         margin-left: 10vw;
+                                    } .gifresponsive {
+                                        width: 100%;
                                     }
 
                                     .navbar {
                                         overflow: hidden;
+                                        float: right;
+                                        max-width: 100px;
                                     }
 
                                     .navbar a {
@@ -180,6 +214,7 @@
                                     .container {
                                         position: relative;
                                         width: 70%;
+                                        margin: 5vw 5vh;
                                     }
 
                                     .overlay {
@@ -212,14 +247,12 @@
                                         }
                                     }
 
-                                    .wrapper {
-                                        display: grid;
-                                        grid-template-columns: repeat(2, 1fr);
-                                        grid-column: 2/3;
-                                        grid-gap: 20px;
-                                        align-self: center;
+                                    .svgicons {
+                                        width: 15%;
                                     }
 
-                                    .svgicons {
-                                        width: 7%;
+                                    .icons {
+                                        margin: auto;
+                                        text-align: center;
+                                        margin-bottom: 5vh;
                                     }
